@@ -1,0 +1,260 @@
+/* Add CSS styles for the navigation bar and header here */
+        /* For example, you can style the background, fonts, and links */
+        .product {
+            display: relative !important;
+        }
+        .center-container {
+            font-size: 30px;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #login-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+} */
+body {
+    color: white;
+    background-image: url('ABOUT.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the button on hover */
+.button-link:hover {
+    background-color: #2580b3;
+}
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 200px;
+}
+
+.product-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.product-description {
+    margin: 10px 0;
+}
+
+.product-price {
+    color: rgb(245, 211, 211);
+    font-weight: bold;
+}
+
+#login-button a:hover {
+    background-color: #0056b3;
+}
+
+        .formm {
+            position: absolute;
+            left:50%;
+        }
+        header {
+            background-color: #f6f6f6;
+            color: #060000;
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+        .logo img{
+            height:50px;
+            width:180px;
+        }
+        .intro{
+            text-align: center;
+
+            display: flex;
+            justify-content: space-between;
+        }
+        .intro img{
+            border-radius: 50px;
+
+            height: 600px;
+            width: 600px;
+        }
+        
+
+         /* Container styling */
+         .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        .containerr {
+            left: 40%;
+            display: absolute;
+            align-items: center;
+            height: 775px; /* Adjust the height as needed */
+            padding: 20px;
+            position: absolute;
+        }
+        .containerr-news {
+            left: 15%;
+            display: absolute;
+            align-items: center;
+            height: 605px; /* Adjust the height as needed */
+            padding: 20px;
+            position: absolute;
+        }
+        .containerr-contact {
+            left: 15%;
+            align-items: center;
+            height: 505px; /* Adjust the height as needed */
+            padding: 20px;
+            position: absolute;
+        }
+        /* Image styling */
+        .image {
+            border-radius: 50px;
+
+            max-width: 40%;
+            height: auto;
+        }
+        .text-3d {
+            font-size: 36px;
+            font-weight: bold;
+            color: #fff; /* Text color */
+            text-shadow: 
+                -2px -2px 2px #333, /* Top-left shadow */
+                2px -2px 2px #333, /* Top-right shadow */
+                -2px 2px 2px #333, /* Bottom-left shadow */
+                2px 2px 2px #333; /* Bottom-right shadow */
+        }
+        .text--3d {
+            font-size: 15px;
+            font-weight: bold;
+            color: #fff; /* Text color */
+            text-shadow: 
+                -2px -2px 2px #333, /* Top-left shadow */
+                2px -2px 2px #333, /* Top-right shadow */
+                -2px 2px 2px #333, /* Bottom-left shadow */
+                2px 2px 2px #333; /* Bottom-right shadow */
+        }
+        .textt {
+            margin-left: 200px;
+            padding: 80px;
+            font-family: 'Courier New', Courier, monospace;
+            fill: black;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: white; /* Fill color */
+            -webkit-text-stroke: 2px black; /* Black border (adjust the width as needed) */
+            stroke: 5px black;
+            text-shadow: red
+         
+        }
+        /* Text styling */
+        .text {
+            margin-left: 200px;
+            padding: 80px;
+            font-family: 'Courier New', Courier, monospace;
+            fill: black;
+            text-align: center;
+            font-size: 56px;
+            font-weight: bold;
+            color: white; /* Fill color */
+            -webkit-text-stroke: 2px black; /* Black border (adjust the width as needed) */
+            stroke: 5px black;
+            text-shadow: red
+         
+        }
+
+        /* Animation when hovered */
+        .container:hover .text {
+            opacity: 1; /* Make the text visible */
+            transform: translateY(0); /* Bring the text back to its original position */
+        }
+
+        .section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+          }
+          
+          .section-left {
+            flex: 1;
+            margin-right: 10px;
+          }
+          
+          .section-center {
+            flex: 1;
+          }
+          
+          .section-right {
+            flex: 1;
+            margin-left: 10px;
+          }
+          
+          @media (max-width: 768px) {
+            .section {
+              flex-direction: column;
+            }
+          
+            .section-left,
+            .section-right {
+              display: none;
+            }
+          }
+         
